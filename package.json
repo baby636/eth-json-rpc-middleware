@@ -32,7 +32,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eth-block-tracker": "^4.4.1",
     "ethjs-query": "^0.3.8",
-    "ganache-core": "^2.7.0",
+    "ganache-core": "^2.13.0",
     "tape": "^4.6.3"
   },
   "dependencies": {
