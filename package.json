@@ -26,7 +26,7 @@
     "@metamask/eslint-config": "^4.1.0",
     "async": "^2.5.0",
     "concat-stream": "^1.6.2",
-    "eslint": "^7.14.0",
+    "eslint": "^7.16.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-json": "^2.1.2",
     "eslint-plugin-node": "^11.1.0",
