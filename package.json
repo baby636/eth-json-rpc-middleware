@@ -11,7 +11,9 @@
   "scripts": {
     "lint": "eslint . --ext js,json",
     "lint:fix": "yarn lint --fix",
-    "test": "node test/index.js"
+    "test": "node test/index.js",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "",
   "license": "ISC",
@@ -32,7 +34,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eth-block-tracker": "^4.4.1",
     "ethjs-query": "^0.3.8",
-    "ganache-core": "^2.7.0",
+    "ganache-core": "^2.13.0",
     "tape": "^4.6.3"
   },
   "dependencies": {
@@ -46,7 +48,8 @@
     "json-stable-stringify": "^1.0.1",
     "node-fetch": "^2.6.1",
     "pify": "^3.0.0",
-    "safe-event-emitter": "^1.0.1"
+    "safe-event-emitter": "^1.0.1",
+    "@snyk/protect": "latest"
   },
   "repository": {
     "type": "git",
@@ -56,5 +59,6 @@
     "url": "https://github.com/kumavis/eth-json-rpc-middleware/issues"
   },
   "homepage": "https://github.com/kumavis/eth-json-rpc-middleware#readme",
-  "description": ""
+  "description": "",
+  "snyk": true
 }
